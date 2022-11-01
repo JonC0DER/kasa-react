@@ -1,0 +1,228 @@
+@media screen and (min-width: 992px) and (max-width: 1920px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  body > div#root > header,
+body > div#root > section {
+    margin-bottom: 40px;
+  }
+  /*++++++++++++++++ HOME */
+  section.banniere {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 25px;
+  }
+  section.banniere::after {
+    border-radius: 25px;
+  }
+  section.banniere h1 {
+    font-size: 48px;
+  }
+  section.gallerie {
+    background-color: #F7F7F7;
+  }
+  section.gallerie article.thumb {
+    margin: 20px;
+    width: 340px;
+    height: 340px;
+  }
+  section.gallerie article.thumb figure figcaption h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  /*++++++++++++++++ FICHE LOGEMENT */
+  div.carrousel {
+    margin-bottom: 50px;
+  }
+  div.carrousel span.left-click,
+div.carrousel span.right-click {
+    right: 3%;
+  }
+  div.carrousel span.left-click {
+    left: 3%;
+  }
+  div.carrousel span.left-click::before {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  section.content {
+    min-height: 715px;
+    max-height: 1400px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  section.content div.details, section.content aside.owner {
+    width: 48%;
+  }
+  section.content aside.owner {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.content aside.owner div.owner-id {
+    width: 30%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  section.content aside.owner div.owner-id h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  section.content aside.owner div.owner-id figure {
+    width: 64px;
+    height: 64px;
+  }
+  section.content aside.owner div.notation i {
+    font-size: 30px;
+  }
+  section.content div.details h1, section.content div.details h4 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  section.content div.details h4 {
+    margin-top: 2%;
+    font-size: 18px;
+  }
+  section.content div.details div.tags {
+    margin-top: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: auto;
+  }
+  section.content div.details div.tags p.tag {
+    background-color: var(--color-primary);
+    width: auto;
+    height: 25px;
+    padding: 8px;
+    margin-right: 8px;
+    line-height: 8px;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--color-secondary);
+  }
+  section.content div.content-text,
+section.content div.content-text-about {
+    margin-top: 2%;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section.content div.content-text article,
+section.content div.content-text-about article {
+    margin-top: 30px;
+  }
+  section.content div.content-text article h4,
+section.content div.content-text-about article h4 {
+    height: 52px;
+    line-height: 26px;
+    border-radius: 10px;
+  }
+  section.content div.content-text article h4::after,
+section.content div.content-text-about article h4::after {
+    top: calc(50% - 8.5px);
+    width: 15px;
+    height: 15px;
+  }
+  section.content div.content-text article p,
+section.content div.content-text-about article p {
+    padding: 20px;
+  }
+  section.content div.content-text article p span,
+section.content div.content-text-about article p span {
+    position: inherit;
+  }
+  section.content div.content-text article p span.open,
+section.content div.content-text-about article p span.open {
+    top: 0%;
+    opacity: 1;
+    -webkit-transition: all 0.2s ease 0.3s;
+    transition: all 0.2s ease 0.3s;
+  }
+  section.content div.content-text article p span.close,
+section.content div.content-text-about article p span.close {
+    opacity: 0;
+    top: -100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  section.content div.content-text article p.open,
+section.content div.content-text-about article p.open {
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+  }
+  section.content div.content-text article p.close,
+section.content div.content-text-about article p.close {
+    height: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.3s ease-in 0.2s;
+    transition: all 0.3s ease-in 0.2s;
+  }
+  section.content div.content-text {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 400px;
+  }
+  section.content div.content-text article {
+    width: 48%;
+  }
+  /*++++++++++++++++ A PROPOS */
+  div.a-propos {
+    height: 250px;
+    border-radius: 25px;
+  }
+  div.content-text-about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.content-text-about article {
+    width: 80%;
+  }
+  /*++++++++++++++++ ERROR 404 */
+  section._404 {
+    text-align: center;
+  }
+  section._404 h1 {
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 411px;
+  }
+  section._404 p {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51px;
+    margin-bottom: 182px;
+  }
+  section._404 a {
+    border-bottom: 1px solid var(--color-primary);
+  }
+}
