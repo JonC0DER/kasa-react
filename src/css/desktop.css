@@ -7,6 +7,18 @@
 body > div#root > section {
     margin-bottom: 40px;
   }
+  header img {
+    height: 68px;
+    width: 210px;
+  }
+  header nav {
+    width: 240px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  header nav ul.header-menu li a {
+    font-size: 24px;
+  }
   /*++++++++++++++++ HOME */
   section.banniere {
     -webkit-box-pack: center;
@@ -49,8 +61,8 @@ div.carrousel span.right-click {
             transform: rotate(135deg);
   }
   section.content {
-    min-height: 715px;
-    max-height: 1400px;
+    /*min-height: 715px;
+    max-height: 1400px;*/
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -213,16 +225,15 @@ section.content div.content-text-about article p.close {
   }
   section._404 h1 {
     font-size: 288px;
-    font-weight: 700;
-    line-height: 411px;
+    line-height: 263px;
   }
   section._404 p {
     font-size: 36px;
-    font-weight: 500;
     line-height: 51px;
     margin-bottom: 182px;
   }
   section._404 a {
-    border-bottom: 1px solid var(--color-primary);
+    font-size: 18px;
+    line-height: 25.76px;
   }
 }

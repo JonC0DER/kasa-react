@@ -8,7 +8,26 @@
     body > div#root > section{
         margin-bottom:30px;
     }
-
+    header{
+        img{
+            /*min-height: 37px;
+            max-height: 47px;*/
+            width: 180px;
+            height:53px;
+        }
+        nav{
+            width:185px;
+            height:40px;
+            margin-right: 5px;
+            ul.header-menu{
+                li{
+                    a{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
     section.banniere{
         justify-content: center;
         border-radius: 20px;
@@ -55,8 +74,8 @@
     section.content{
         padding-left: 5px;
         padding-right: 5px;
-        min-height: 715px;
-        max-height: 1400px;
+        /*min-height: 715px;
+        max-height: 1400px;*/
         justify-content: space-between;
         flex-wrap: wrap;
         margin-top: 2%;
@@ -121,11 +140,17 @@
     }
     /*++++++++++++++++ A PROPOS && LOGEMENT */
     section.content{
+        /*div.content-text{
+            height: 400px;
+        }
+        div.content-text-about{
+            height: 400px;
+        }*/
         div.content-text,
         div.content-text-about{
+            height: fit-content;
             margin-top: 2%;
             width: 100%;
-            height: fit-content;
             display: flex;
             flex-direction: column;
             article{
@@ -154,6 +179,23 @@
     div.ap.content-text-about{
         article.ap, article{
             width:100%;
+        }
+    }
+    /*++++++++++++++++ ERROR 404 */
+    section._404{
+        text-align: center;
+        h1{
+            font-size: 180px;
+            line-height: 210px;
+        }
+        p{
+            font-size: 26px;
+            line-height: 38px;
+            margin-bottom: 182px;
+        }
+        a{
+            font-size: 16px;
+            line-height: 21px;
         }
     }
 }

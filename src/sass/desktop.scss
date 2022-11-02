@@ -8,6 +8,24 @@
     body > div#root > section{
         margin-bottom:40px;
     }
+    header{
+        img{
+            height:68px;
+            width: 210px;
+        }
+        nav{
+            width:240px;
+            height:40px;
+            margin-right: 10px;
+            ul.header-menu{
+                li{
+                    a{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
     /*++++++++++++++++ HOME */
     section.banniere{
         justify-content: center;
@@ -55,8 +73,8 @@
         }
     }
     section.content{
-        min-height: 715px;
-        max-height: 1400px;
+        /*min-height: 715px;
+        max-height: 1400px;*/
         justify-content: space-between;
         flex-wrap: wrap;
         margin-top: 2%;
@@ -182,17 +200,16 @@
         text-align: center;
         h1{
             font-size: 288px;
-            font-weight: 700;
-            line-height: 411px;
+            line-height: 263px;
         }
         p{
             font-size: 36px;
-            font-weight: 500;
             line-height: 51px;
             margin-bottom: 182px;
         }
         a{
-            border-bottom: 1px solid var(--color-primary);
+            font-size: 18px;
+            line-height: 25.76px;
         }
     }
 }

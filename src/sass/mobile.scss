@@ -12,10 +12,23 @@
 
     header{
         img{
+            width: 145px;
             min-height: 37px;
             max-height: 47px;
             height:50%;
         }
+        nav{
+        width:116px;
+        height:40px;
+        margin-right: 0px;
+        ul.header-menu{
+            li{
+                a{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
     }
     section.banniere{
         height: 111px;
@@ -91,9 +104,9 @@
                     font-weight: 500;
                     line-height: 17px;
                     text-align: left;
-                    br{
-                        /*display: none;*/
-                    }
+                    /*br{
+                        display: none;
+                    }*/
                 }
                 figure{
                     width: 32px;
@@ -143,14 +156,15 @@
     }
     /*++++++++++++++++ A PROPOS && LOGEMENT */
     section.content{
-        div.content-text{
+        /*div.content-text{
             height: 400px;
         }
         div.content-text-about{
             height: 400px;
-        }
+        }*/
         div.content-text,
         div.content-text-about{
+            height: fit-content;
             margin-top: 2%;
             width: 100%;
             display: flex;
@@ -183,6 +197,30 @@
     div.ap.content-text-about{
         article.ap, article{
             width:100%;
+        }
+    }
+    /*++++++++++++++++ ERROR 404 */
+    section._404{
+        text-align: center;
+        h1{
+            font-size: 96px;
+            line-height: 136px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 25px;
+            margin-bottom: 182px;
+        }
+        a{
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }
+    /* ++++++++++++++++ FOOTER */
+    footer{
+        p{
+            font-size: 12px;
+            line-height: 17px;
         }
     }
 }

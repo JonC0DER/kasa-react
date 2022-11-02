@@ -14,6 +14,25 @@
           box-sizing: border-box;
 }
 
+/* Stiky Footer to BOTTOM*/
+div#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+section.gallerie, section.content, section._404 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/*#######################*/
 footer {
   background-color: black;
   height: 209px;
@@ -78,9 +97,6 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-header img {
-  width: 150px;
-}
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -92,9 +108,6 @@ header nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 150px;
-  height: 40px;
-  margin-right: 15px;
 }
 header nav ul.header-menu {
   display: -webkit-box;
@@ -362,8 +375,6 @@ section.content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 715px;
-  max-height: 1400px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -558,6 +569,21 @@ div.ap.content-text-about article.ap {
   margin-bottom: 2%;
 }
 
+/*++++++++++++++++ ERROR 404 */
+section._404 {
+  text-align: center;
+}
+section._404 h1 {
+  font-weight: 700;
+}
+section._404 p {
+  font-weight: 500;
+  margin-bottom: 182px;
+}
+section._404 a {
+  border-bottom: 1px solid var(--color-primary);
+}
+
 @media screen and (min-width: 992px) and (max-width: 1920px) {
   body {
     padding-left: 20px;
@@ -566,6 +592,18 @@ div.ap.content-text-about article.ap {
   body > div#root > header,
 body > div#root > section {
     margin-bottom: 40px;
+  }
+  header img {
+    height: 68px;
+    width: 210px;
+  }
+  header nav {
+    width: 240px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  header nav ul.header-menu li a {
+    font-size: 24px;
   }
   /*++++++++++++++++ HOME */
   section.banniere {
@@ -609,8 +647,8 @@ div.carrousel span.right-click {
             transform: rotate(135deg);
   }
   section.content {
-    min-height: 715px;
-    max-height: 1400px;
+    /*min-height: 715px;
+    max-height: 1400px;*/
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -773,17 +811,16 @@ section.content div.content-text-about article p.close {
   }
   section._404 h1 {
     font-size: 288px;
-    font-weight: 700;
-    line-height: 411px;
+    line-height: 263px;
   }
   section._404 p {
     font-size: 36px;
-    font-weight: 500;
     line-height: 51px;
     margin-bottom: 182px;
   }
   section._404 a {
-    border-bottom: 1px solid var(--color-primary);
+    font-size: 18px;
+    line-height: 25.76px;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 991px) {
@@ -794,6 +831,20 @@ section.content div.content-text-about article p.close {
   body > div#root > header,
 body > div#root > section {
     margin-bottom: 30px;
+  }
+  header img {
+    /*min-height: 37px;
+    max-height: 47px;*/
+    width: 180px;
+    height: 53px;
+  }
+  header nav {
+    width: 185px;
+    height: 40px;
+    margin-right: 5px;
+  }
+  header nav ul.header-menu li a {
+    font-size: 18px;
   }
   section.banniere {
     -webkit-box-pack: center;
@@ -838,8 +889,8 @@ body > div#root > section {
   section.content {
     padding-left: 5px;
     padding-right: 5px;
-    min-height: 715px;
-    max-height: 1400px;
+    /*min-height: 715px;
+    max-height: 1400px;*/
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -915,13 +966,21 @@ body > div#root > section {
     color: var(--color-secondary);
   }
   /*++++++++++++++++ A PROPOS && LOGEMENT */
+  section.content {
+    /*div.content-text{
+        height: 400px;
+    }
+    div.content-text-about{
+        height: 400px;
+    }*/
+  }
   section.content div.content-text,
 section.content div.content-text-about {
-    margin-top: 2%;
-    width: 100%;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    margin-top: 2%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -958,6 +1017,23 @@ section.content div.content-text-about article p {
   div.ap.content-text-about article.ap, div.ap.content-text-about article {
     width: 100%;
   }
+  /*++++++++++++++++ ERROR 404 */
+  section._404 {
+    text-align: center;
+  }
+  section._404 h1 {
+    font-size: 180px;
+    line-height: 210px;
+  }
+  section._404 p {
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 182px;
+  }
+  section._404 a {
+    font-size: 16px;
+    line-height: 21px;
+  }
 }
 @media screen and (min-width: 0px) and (max-width: 600px) {
   body {
@@ -970,9 +1046,18 @@ body > div#root > section {
     margin-bottom: 20px;
   }
   header img {
+    width: 145px;
     min-height: 37px;
     max-height: 47px;
     height: 50%;
+  }
+  header nav {
+    width: 116px;
+    height: 40px;
+    margin-right: 0px;
+  }
+  header nav ul.header-menu li a {
+    font-size: 12px;
   }
   section.banniere {
     height: 111px;
@@ -1061,9 +1146,9 @@ body > div#root > section {
     font-weight: 500;
     line-height: 17px;
     text-align: left;
-  }
-  section.content aside.owner div.owner-id h4 br {
-    /*display: none;*/
+    /*br{
+        display: none;
+    }*/
   }
   section.content aside.owner div.owner-id figure {
     width: 32px;
@@ -1110,14 +1195,19 @@ body > div#root > section {
     color: var(--color-secondary);
   }
   /*++++++++++++++++ A PROPOS && LOGEMENT */
-  section.content div.content-text {
-    height: 400px;
-  }
-  section.content div.content-text-about {
-    height: 400px;
+  section.content {
+    /*div.content-text{
+        height: 400px;
+    }
+    div.content-text-about{
+        height: 400px;
+    }*/
   }
   section.content div.content-text,
 section.content div.content-text-about {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     margin-top: 2%;
     width: 100%;
     display: -webkit-box;
@@ -1157,5 +1247,27 @@ section.content div.content-text-about article p {
   }
   div.ap.content-text-about article.ap, div.ap.content-text-about article {
     width: 100%;
+  }
+  /*++++++++++++++++ ERROR 404 */
+  section._404 {
+    text-align: center;
+  }
+  section._404 h1 {
+    font-size: 96px;
+    line-height: 136px;
+  }
+  section._404 p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 182px;
+  }
+  section._404 a {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  /* ++++++++++++++++ FOOTER */
+  footer p {
+    font-size: 12px;
+    line-height: 17px;
   }
 }
