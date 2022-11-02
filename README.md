@@ -3,9 +3,6 @@
 
 - Kasa is a web platform for apartment rentals.
 
-#### W3C validator
- [w3c-validator]().
-
 ### kasa react project
 
-- you can take a look at the project: [here]()
+- you can take a look at the project: [here](https://jonc0der.github.io/)
