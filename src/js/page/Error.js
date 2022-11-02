@@ -1,16 +1,17 @@
 import { Component } from "react";
-import {Link, Navigate} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class ErrorPage extends Component{
     sleep(milliseconds){
         return new Promise(resolve => setTimeout(resolve, milliseconds))
     }
 	
-    componentDidUpdate() {
+    /*componentDidUpdate() {
         this.sleep(4000).then(() => {
             <Navigate to="/kasa-react/*"/>
       	})
-    }
+    }*/
+
     render(){
         return(
             <section className="_404">

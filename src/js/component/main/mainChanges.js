@@ -11,7 +11,7 @@ function MainChanges() {
             <Route path="/kasa-react" element={<Home />} />
             <Route path="/kasa-react/apropos" element={<About />} />
             <Route path="/kasa-react/logement/:id" element={<Logement />} />
-            <Route path="*" element={<ErrorPage />}/>
+            <Route path="/*" element={<ErrorPage />}/>
             <Route path="/kasa-react/*" element={<ErrorPage />}/>
         </Routes>
     );
