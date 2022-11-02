@@ -5,4 +5,4 @@
 
 ### kasa react project
 
-- you can take a look at the project: [here](https://jonc0der.github.io/)
+- you can take a look at the project: [here](https://jonc0der.github.io/kasa-react)
