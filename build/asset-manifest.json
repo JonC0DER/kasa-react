@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kasa-react/static/css/main.e68bdaf6.css",
-    "main.js": "/kasa-react/static/js/main.20cb38fe.js",
-    "static/js/787.0ce615c0.chunk.js": "/kasa-react/static/js/787.0ce615c0.chunk.js",
-    "static/media/a_propos.png": "/kasa-react/static/media/a_propos.0ea1c877c3b4cd7a6a71.png",
-    "static/media/banniere_bg.png": "/kasa-react/static/media/banniere_bg.8a8a767d38edacfbb074.png",
-    "static/media/Logo_kasa.svg": "/kasa-react/static/media/Logo_kasa.a6101328193bb3191cbcb50c120ec0d1.svg",
-    "index.html": "/kasa-react/index.html",
-    "main.e68bdaf6.css.map": "/kasa-react/static/css/main.e68bdaf6.css.map",
-    "main.20cb38fe.js.map": "/kasa-react/static/js/main.20cb38fe.js.map",
-    "787.0ce615c0.chunk.js.map": "/kasa-react/static/js/787.0ce615c0.chunk.js.map"
+    "main.css": "/kasa-react/build/static/css/main.7aef2ea2.css",
+    "main.js": "/kasa-react/build/static/js/main.29aefefa.js",
+    "static/js/787.0ce615c0.chunk.js": "/kasa-react/build/static/js/787.0ce615c0.chunk.js",
+    "static/media/a_propos.png": "/kasa-react/build/static/media/a_propos.0ea1c877c3b4cd7a6a71.png",
+    "static/media/banniere_bg.png": "/kasa-react/build/static/media/banniere_bg.8a8a767d38edacfbb074.png",
+    "static/media/Logo_kasa.svg": "/kasa-react/build/static/media/Logo_kasa.a6101328193bb3191cbcb50c120ec0d1.svg",
+    "index.html": "/kasa-react/build/index.html",
+    "main.7aef2ea2.css.map": "/kasa-react/build/static/css/main.7aef2ea2.css.map",
+    "main.29aefefa.js.map": "/kasa-react/build/static/js/main.29aefefa.js.map",
+    "787.0ce615c0.chunk.js.map": "/kasa-react/build/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e68bdaf6.css",
-    "static/js/main.20cb38fe.js"
+    "static/css/main.7aef2ea2.css",
+    "static/js/main.29aefefa.js"
   ]
 }
