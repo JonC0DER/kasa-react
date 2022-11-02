@@ -21,7 +21,7 @@ class ArticleThumb extends Component{
                  data-id={logement.id} 
                  className="thumb"
                  /*onClick={this.linkToLogement(logement.id)}*/>
-                    <Link to={`/logement/${logement.id}`}>
+                    <Link to={`/kasa-react/logement/${logement.id}`}>
                     <figure>
                         <img src={logement.cover} alt="logement cover" />
                         <figcaption>

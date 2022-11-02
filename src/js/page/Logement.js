@@ -19,7 +19,7 @@ function Logement(props){
             <Owner      data={state.datas} />
             <ContentTxt data={state.datas} />
             </>
-            : <Navigate to="/*" />}
+            : <Navigate to="/kasa-react/*" />}
         </section>
     );
 }

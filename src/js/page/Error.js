@@ -8,7 +8,7 @@ class ErrorPage extends Component{
 	
     componentDidUpdate() {
         this.sleep(4000).then(() => {
-            <Navigate to="/"/>
+            <Navigate to="/kasa-react/*"/>
       	})
     }
     render(){
@@ -16,7 +16,7 @@ class ErrorPage extends Component{
             <section className="_404">
                 <h1>404</h1>
                 <p>Oups! La page que vous demandez n'existe pas.</p>
-                <Link to="/">Retour à la page d'accueil</Link>
+                <Link to="/kasa-react">Retour à la page d'accueil</Link>
             </section>
         )
     }

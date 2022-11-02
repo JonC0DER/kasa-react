@@ -8,9 +8,11 @@ function MainChanges() {
     return (  
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/apropos" element={<About />} />
-            <Route path="/logement/:id" element={<Logement />} />
-            <Route path="/*" element={<ErrorPage />} />
+            <Route path="/kasa-react" element={<Home />} />
+            <Route path="/kasa-react/apropos" element={<About />} />
+            <Route path="/kasa-react/logement/:id" element={<Logement />} />
+            <Route path="/*" element={<ErrorPage />}/>
+            <Route path="/kasa-react/*" element={<ErrorPage />}/>
         </Routes>
     );
 }

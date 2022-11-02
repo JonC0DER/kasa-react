@@ -8,12 +8,12 @@ class NavBar extends Component{
             <nav>
                 <ul className="header-menu">
                     <li>
-                        <NavLink strict="true" to="/"
+                        <NavLink strict="true" to="/kasa-react"
                         className={(navData) => (navData.isActive ? "on-it" : 'none')}
                         >Accueil</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/apropos"
+                        <NavLink to="/kasa-react/apropos"
                         className={(navData) => (navData.isActive ? "on-it" : 'none')}
                         >A Propos</NavLink>
                     </li>
